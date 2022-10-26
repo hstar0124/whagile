@@ -29,6 +29,12 @@
 ## 프로젝트 아키텍처
 ![image](https://user-images.githubusercontent.com/57317290/197909555-179a8361-54f6-4cc4-a590-551e55712a18.png)
 
+## DB 설계
+
+![image](https://user-images.githubusercontent.com/57317290/197909765-f2cc43cf-9386-442e-beca-e2ce7512b904.png)
+
+
+
 ## 프로젝트 후기
 ### 어려웠던 점 & 해결하기 위한 노력
 
