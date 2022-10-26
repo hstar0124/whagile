@@ -1,0 +1,43 @@
+#navbar {
+    width: 240px;
+    height: calc(100vh - 58px);
+    background-color: #282936;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#navbar>* {
+    margin-top: 16px;
+}
+
+#navbar>div {
+    width: 203px;
+    font-size: 16px;
+}
+
+#navbar>div:nth-child(1) {
+    background-color: #333544;
+    border-radius: 6px;
+    padding: 20px;
+    height: auto;
+}
+
+#navbar>div:nth-child(2) {
+    flex: 1;
+}
+
+#navbar>div:nth-child(3) {
+    justify-content: end;
+}
+
+#projectListBtn {
+    width: 200px;
+    color: #fff;
+    background-color: #00AA9C;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,14 @@
+section.section {
+    width: calc(100vw - 240px);
+    height: calc(100vh - 58px);
+    background-color: #1D1E27;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.section>div {
+    width: 96%;
+    border-radius: 10px;
+}

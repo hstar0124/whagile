@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  webapp:
+    image: thankspotato/react-server
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+
+  app : 
+    image: thankspotato/express-server
+    posts:
+      - "8888:8888"

@@ -1,0 +1,40 @@
+nav#admin {
+    width: 240px;
+    height: calc(100vh - 58px);
+    background-color: #282936;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-right: 1px solid #333544;
+}
+
+nav#admin>* {
+    margin-top: 16px;
+}
+
+nav#admin>div {
+    width: 198px;
+    background-color: #333544;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+nav>div:nth-child(1) {
+    padding: 20px;
+    height: auto;
+}
+
+nav>div:nth-child(2) {
+    height: auto;
+}
+
+#title {
+    font-size: 15px !important;
+    color: #F86064;
+}
+
+#title>*:nth-child(1) {
+    margin-right: 8px;
+}

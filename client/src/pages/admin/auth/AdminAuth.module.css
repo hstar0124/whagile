@@ -1,0 +1,89 @@
+#search {
+    height: 58px;
+    background-color: #282936;
+    border: 1px solid #333544;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+#search>div>* { /* search condition */
+    width: 200px;
+}
+
+#search>span>* { /* search value */
+    width: calc(100vw - 720px);
+}
+
+#table {
+    padding: 0;
+    /* height: calc(100vh - 420px); */
+    margin-bottom: 20px;
+}
+
+#dialogHeader {
+    border-bottom: 2px solid #333544;
+    padding: 10px 0 30px 0;
+}
+
+#dialogHeader>span {
+    width: 10vw;
+    background-color: #1D1E27;
+    color: white;
+    border: 2px solid #333544;
+    border-radius: 15px;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+#dialogBody>div:nth-child(1), #dialogBody>div>div, #dialogBody>div:nth-child(3) {  /* 권한명 */
+    height: 100px;   /*71px*/
+    display: flex;
+    flex-direction: column;
+}
+
+#dialogBody>div:nth-child(2) { /*활성화여부 + 노출순서 */
+    height: 100px;   /*71px*/
+    display: flex;
+    flex-direction: row;
+}
+
+#dialogBody>div>div:nth-child(1) {
+    width: 30%;
+}
+
+#dialogBody>div>div:nth-child(2) {
+    width: 70%;
+}
+
+#dialogBody>div label {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+#dialogFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+/* 임시(다른사람들 고치면 지울 것, !important도) */
+.activatedY {
+    width: 80px;
+    background-color: #00AA9C;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.activatedN {
+    width: 80px;
+    background-color: #333544;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}

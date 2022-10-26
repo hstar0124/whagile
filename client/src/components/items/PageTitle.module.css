@@ -1,0 +1,18 @@
+#title {
+    width: 96%;
+    height: 58px;
+    background-color: #1D1E27;
+    border: 1px solid #333544;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+#title>* {
+    margin-right: 10px;
+    font-size: 25px;
+}

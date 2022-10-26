@@ -1,0 +1,46 @@
+.img {
+  font-family: sans-serif;
+  text-align: center;
+  animation: updown 8s ease infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-3%);
+  }
+
+  50% {
+    transform: translateY(-25%);
+  }
+
+  100% {
+    transform: translateY(-3%);
+  }
+}
+
+
+.errorPage{
+	background:#1D1E27;
+	text-align:center;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.errorPage h1 { font-size:70pt; margin:0; color:#F86064; }
+.errorPage h3 { color:#FFB95F; }
+.errorPage h5 { font-size:14pt; color: #F86064; }
+
+
+.errorPageBtn{
+	background:#F86064;
+    color:#fff;
+	border:none;
+	padding:20px;
+	border-radius:5px;
+	font-size:13pt;
+    margin: 10px;
+}
+
+.errorPageBtn:hover{ background:#FFB95F; }

@@ -1,0 +1,121 @@
+
+#taskCommentContents{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+
+#taskCommentMemberName{
+    color:#fff;
+}
+
+#taskCommentContent{
+    background-color: #1D1E27;
+    border-radius: 3px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#taskCommentContentInput{
+    background-color: #1D1E27;
+    color: #fff;
+    width: 90%;
+    height: 40px;
+    border: none;
+    text-align: center;
+}
+
+    
+#taskCommentDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 0.8em;
+}
+
+#taskCommentInput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    resize: none;
+    margin-top: 10px;
+}
+
+#taskCommentTotalBtn{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+#taskCommentSaveBtn{
+    width: 60px;
+    height: 20px;
+    color:#a3a3a3;
+    border: none;
+    font-size: 5px;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: right;
+}
+
+
+#taskCommentSaveBtn:hover {
+  transform: scale(1.3);
+ }
+
+#taskCommentCancelBtn{
+    width: 60px;
+    height: 20px;
+    color: #a3a3a3;
+    border: none;
+    font-size: 5px;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: center;
+}
+
+#taskCommentCancelBtn:hover {
+  transform: scale(1.3);
+ }
+
+#taskCommentEditBtn{
+    width: 60px;
+    height: 20px;
+    color:#a3a3a3;
+    border: none;
+    font-size: 5px;
+    font-weight:bolder;
+    background-color: transparent;
+    text-align: right;
+}
+
+#taskCommentEditBtn:hover {
+  transform: scale(1.3);
+ }
+
+#taskCommentDeleteBtn{
+    width: 60px;
+    height: 20px;
+    color:#a3a3a3;
+    border: none;
+    font-size: 5px;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: center;
+}
+#taskCommentDeleteBtn:hover {
+  transform: scale(1.3);
+ }
+

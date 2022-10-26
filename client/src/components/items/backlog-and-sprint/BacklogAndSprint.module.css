@@ -1,0 +1,340 @@
+.pageDivision {
+    width: 96%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #282936;
+    color: #fff;
+}
+
+.divTitle {
+    font-size: 20px;
+}
+
+.divisionLine {
+    border: 1px solid #333440;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+#divHeader {
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.backlogItem, #noSprint {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backlogItem {
+    background-color: #1D1E27;
+}
+
+#noSprint {
+    background-color: #333544;
+}
+
+#divHeader>div,
+.backlogItem>div {
+    text-align: center;
+    width: calc(100% / 6);
+}
+
+#filterConditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#filterConditions>:nth-child(1), 
+#filterConditions>:nth-child(2), 
+#filterConditions>:nth-child(3) {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sprintItem {
+    background-color: #333544;
+    border-radius: 10px;
+    min-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sprintSummary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sprintSummary>:nth-child(1) {
+    width: 5%;
+}
+
+.sprintSummary>:nth-child(2) {
+    width: 45%;
+}
+
+.sprintSummary>:nth-child(3) {
+    width: 25%;
+}
+
+.sprintSummary>:nth-child(4) {
+    width: 10%;
+}
+
+.sprintSummary>:nth-child(5) {
+    width: 15%;
+}
+
+.sprintItemHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.sprintItemHeader>label, 
+.sprintItemHeader>div {
+    text-align: center;
+}
+
+.sprintItemHeader>button {
+    align-items: flex-end;
+}
+
+.sprintItemHeader>:nth-child(1) {
+    width: 5%;
+}
+
+.sprintItemHeader>:nth-child(2) {
+    width: 50%;
+}
+
+.sprintItemHeader>:nth-child(3) {
+    width: 20%;
+}
+
+.sprintItemHeader>:nth-child(4) {
+    width: 10%;
+}
+
+.sprintItemHeader>:nth-child(5) {
+    justify-content: right;
+    width: 15%;
+}
+
+.sprintSelectBtn {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#editBtn {
+    background: none;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#backlogDetail {
+    width: 25%;
+}
+
+#backlogDetail>:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.fontColoring {
+    color: #A2A2A6;
+}
+
+.boldAndColored {
+    color: #A2A2A6;
+    font-weight: bold;
+}
+
+#detailDiv {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333440;
+    display: flex;
+    flex-direction: column;
+    color: #A2A2A6;
+}
+
+#detailDiv>p>:nth-child(2) {
+    float: right;
+}
+
+#inputComment {
+    width: 100%;
+    resize: none;
+}
+
+#registCommentBtn {
+    width: 40px;   
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+    background-color: #00AA9C;
+    border: none;
+    float: right;
+    margin-top: 5px;
+}
+
+#newComment {
+    margin-top: 20px;
+}
+
+#moreDetailsBtn, #readMoreBtn {
+    background: none;
+    border: none;
+    color: #ffcf91;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#editableArea {
+    display: block;
+    float: right;
+}
+
+#moreBtn {
+    background-color: #333440;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    padding: 3px;
+    margin: 2px;
+    height: 30px
+}
+
+#editConfirmBtn, #editCancelBtn {
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    margin: 2px;
+    margin-top: 10px;
+    display: block;
+    float: right;
+}
+
+#editConfirmBtn {
+    background-color: #00AA9C;
+}
+
+#editConfirmBtn:disabled {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#editCancelBtn {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#inputTitle, #sprintOption, #issueOption, #urgencyOption {
+    width: 100%;
+}
+
+#detailDiv>h6 {
+    margin-bottom: 5px;
+}
+
+.smallText {
+    font-size: 10px;
+}
+
+#backlogTitle {
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #1D1E27;
+}
+
+/* .editSprintBtn {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 12px;
+} */
+
+.editSprintBtn>i {
+    height: 12px;
+    margin-right: 5px;
+}
+
+.sprintStartBtn, 
+.sprintEndBtn {
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sprintStartBtn:disabled,
+.sprintEndBtn:disabled {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.sprintStartBtn {
+    background-color: #5A8FF6;
+}
+
+.sprintEndBtn {
+    background-color: #F86064;
+}
+
+.sprintTarget {
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    color: #A2A2A6;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#sprintBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 10px;
+}
+
+#sprintBox>:first-child {
+    width: 60%;
+}
+
+#sprintBox>:last-child {
+    width: 40%;
+    justify-content: center;
+}

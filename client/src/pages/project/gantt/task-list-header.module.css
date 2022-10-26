@@ -1,0 +1,35 @@
+.ganttTable {
+    display: table;
+    border-bottom: #e6e4e4 1px solid;
+    border-top: #e6e4e4 1px solid;
+    border-left: #e6e4e4 1px solid;
+}
+
+.ganttTable_Header {
+	display: table-row;
+	list-style: none;
+}
+
+.ganttTable_HeaderItem {
+	display: table-cell;
+	vertical-align: -webkit-baseline-middle;
+	vertical-align: middle;
+}
+
+div.cells {
+	height: 32px;
+	background-color: #282936;
+	color: #FFFFFFAA;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+	-ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+	cursor: pointer;
+}

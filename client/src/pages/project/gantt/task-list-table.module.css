@@ -1,0 +1,26 @@
+div.cells {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+div#cellsHover {
+    background-color: #282936;
+}
+
+div#cellsHover:hover {
+    background-color: #333544;
+}
+
+div#cellsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

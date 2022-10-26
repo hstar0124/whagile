@@ -1,0 +1,47 @@
+#search, #paginator {
+    height: 70px;
+    background-color: #282936;
+    border: 1px solid #333544;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+#search>div>* { /* search condition */
+    width: 200px;
+}
+
+#search>span>* { /* search value */
+    width: calc(100vw - 720px);
+}
+
+
+#vertical tbody{
+    display: inline-table;
+    width: 100%;
+}
+
+#vertical {
+    width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+#vertical th, td {
+    color: white;
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+
+#vertical tr {
+    width: 100%;
+}
+
+#pwdBtn {
+    height: 15px;
+    color: white;
+    background-color: #F86064;
+}
