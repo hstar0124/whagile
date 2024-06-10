@@ -31,11 +31,14 @@
 - DB 설계 및 스크립트 관리
 - Docker, Docker-compose 세팅
 
+## 프로토타이핑
+![image](https://github.com/hstar0124/whagile/assets/57317290/d9620042-7092-4a49-a62c-f90dcea2d0eb)
+
+
 ## 프로젝트 아키텍처
 ![image](https://user-images.githubusercontent.com/57317290/197909555-179a8361-54f6-4cc4-a590-551e55712a18.png)
 
 ## DB 설계
-
 ![image](https://user-images.githubusercontent.com/57317290/197909765-f2cc43cf-9386-442e-beca-e2ce7512b904.png)
 
 
